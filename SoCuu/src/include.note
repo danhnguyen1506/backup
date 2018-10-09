@@ -1,0 +1,55 @@
+import React from 'react';
+
+import { ListView, StyleSheet,Text } from 'react-native';
+
+import { BaseScreen } from '../BaseScreen';
+import * as messages from '../../common/messages';
+import * as Utils from '../../common/Utils';
+import * as define from '../../common/define';
+
+screens:
+- options (image + text in a option)
+- steps (  image:left , text: right + header at top)
+- content (image + text vertically)
+- yes or no (2 image left, right , 2 button yes, no, text between)
+
+base screen
+
+- header : text
+- options:
+    - image
+    - text 
+- steps:     
+    + left : image   
+    + right : 
+        ++ text
+        ++ button
+
+- footer : text
+- left_button
+- right_button
+- center_button
+
+
+
+text:
+    bold
+    underline
+    fontSize
+    align
+
+image:
+    align
+    height
+    width
+
+option:
+    image 
+    text
+    clickable
+
+button:
+    title
+    screen
+    width
+    height

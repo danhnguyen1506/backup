@@ -1,0 +1,12 @@
+<step title="Step 2" summary="Unconscious2">
+    <page image="giphy.gif" audio="sample1.mp3" video="dolbycanyon.mp4">        
+        <text>
+            {bold-center}Nạn nhân có TỰ HO được hay không?{/bold-center}
+        </text>
+    </page>
+    <page image="giphy.gif" audio="sample1.mp3" video="dolbycanyon.mp4">        
+        <text>
+            {bold-center}Nạn nhân có TỰ HO được hay không?{/bold-center}
+        </text>
+    </page>
+</step>
